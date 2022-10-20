@@ -1,0 +1,54 @@
+.barra {
+  background-color: #38598b;
+  width: 100%;
+  height: 50px;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.title #title {
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.text #text {
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 10px;
+  height: 100px;
+  padding: 5px;
+}
+
+.new {
+  background-color: #38598b;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  width: 96%;
+  cursor: pointer;
+}
+
+label {
+  margin-left: 10px;
+}

@@ -1,0 +1,32 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+}
+
+.title {
+  top: 0.1rem;
+  left: 1rem;
+  color: #38598b;
+}
+
+.add {
+  top: 1rem;
+  right: 1rem;
+  background-color: #38598b;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 3rem;
+  cursor: pointer;
+  display: block;
+}
+
+.add:active {
+  transform: scale(0.98);
+}
